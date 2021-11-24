@@ -1,0 +1,158 @@
+/* HALAMAN HOME */
+.top-bar{
+    width: 100%;
+    /* margin-right: 0;
+    margin-left: 0; */
+    background-color: rgb(243, 243, 243);
+    color: rgb(83, 83, 83);
+}
+
+.nav-link{
+    margin-right: 20px;
+    font-weight: bold;
+}
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid rgb(0, 119, 255);
+    margin: auto;
+}
+.dropdown:hover .dropdown-menu{
+        display: block;
+}
+.btn{
+    border-radius: 50px;
+}
+
+h1{
+    font-weight: bold;
+    color: rgb(9, 179, 247);
+}
+
+.jumbotron1, .jumbotron2{
+        background-color: #0099ff;
+        height: 500px;
+}
+.jumbotron1 img{
+    width: 500px;
+    margin-top: 50px;
+}
+.jumbotron1 h2{
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.jumbotron1 p{
+    color: white;
+}
+
+.why {
+    margin-top: -40px;
+  }
+
+.jumbotron2 h2{
+    color: white;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.jumbotron2 img{
+    width: 300px;
+    margin:auto;
+    padding: 20px;
+}
+.parallax {
+    /* The image used */
+    
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/1.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    /* Set a specific height */
+    min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+.card{
+    border-radius: 20px;
+    padding: 20px;
+}
+.card2{
+    padding: 60px;
+}
+.card2 img{
+    display: relative;
+    width: 80px;
+    justify-content: center;
+}
+
+.card3{
+   background-color: rgb(243, 240, 240);
+}
+
+.text{
+    font-size: 100px;
+    margin-top:30px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .jumbotron1{
+        background-color: #0099ff;
+        height: 750px;
+    }
+    .text{
+        text-align: center;
+    }
+    .jumbotron2{
+        background-color: #0099ff;
+        height: 1400px;
+    }
+  }
+
+
+  /* HALAMAN RESTAURAN */
+  .jumbotron-restauran{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/cafe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    z-index: 0;
+}
+
+ /* HALAMAN LAUNDRY */
+ .jumbotron-laundry{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../img/laundry.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.footer{
+    background-color: rgb(46, 46, 46);
+}
+.footer p{
+    color: rgb(189, 187, 187);
+}
+.footer h2, h6{
+    color: rgb(189, 187, 187);
+    font-weight: bold;
+    margin:10px;
+}
+.footer a,li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(189, 187, 187);
+}
