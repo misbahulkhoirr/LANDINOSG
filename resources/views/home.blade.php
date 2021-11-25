@@ -18,7 +18,7 @@
 </div>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L80,106.7C160,117,320,139,480,138.7C640,139,800,117,960,122.7C1120,128,1280,160,1360,176L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
 
-<div class="container">
+<div class="container" data-aos="fade-up" data-aos-duration="1000">
 <div class="row why">
     <div class="col-md-6 mb-3">
         <h1>Kenapa Daily Customer?</h1>
@@ -38,7 +38,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L80,106.7C160,117,320,139,480,138.7C640,139,800,117,960,122.7C1120,128,1280,160,1360,176L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
 
 <div class="jumbotron2">
-<div class="container">
+<div class="container" data-aos="fade-up" data-aos-duration="1000">
     <div class="row">
         <h2 class="text-center mb-5">BENEFIT</h2>
         <div class="col-md-4 mb-3">
@@ -72,7 +72,7 @@
 </div>
 </div>
 
-<div class="container">
+<div class="container" data-aos="fade-up" data-aos-duration="1000">
 <div class="row">
     <h2 class="text-center mt-5">SERVICES</h2>
     <p class="text-center">Layanan kami untuk sementara ini hanya berfokus pada sektor berikut</p>
@@ -100,10 +100,10 @@
 <section id="service">
 <div class="container mt-5">'
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1000">
     <img src="img/phone.png" alt="">
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6" data-aos="fade-left" data-aos-duration="1000">
     <h3 class="fw-bold">Fitur Spesial yang Bisa Anda Temukan di</h3>
     <img src="img/logo.png" alt="">
     <hr class="mt-5 mb-5">
@@ -119,7 +119,9 @@
 </section>
 
 <div class="parallax">
-<h1 class="fw-bold text-center mt-5 d-flex justify-content-center" style="color:white">Daftar Sekarang</h1>
+  <div class="container" data-aos="fade-up" data-aos-duration="1000">
+    <h1 class="fw-bold text-center mt-5 d-flex justify-content-center text-light">Daftar Sekarang</h1>
+  </div>
 </div>
 
 @endsection

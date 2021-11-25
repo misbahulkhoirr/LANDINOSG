@@ -38,12 +38,11 @@ Route::get('/carakerja', function () {
     ]);
 });
 
-Route::get('/sukses', function () {
-    return view('Sukses', [
-        'title' => 'Daftar Berhasil'
+Route::get('/daftar', function () {
+    return view('Daftar', [
+        'title' => 'Daftar',
     ]);
 });
 
-
-Route::get('/daftar', [DaftarController::class, 'index'])->middleware('guest');
 Route::post('/daftar', [DaftarController::class, 'store']);
+Route::get('/sukses', [DaftarController::class, 'index']);

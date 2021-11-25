@@ -15,7 +15,7 @@
 </div>
 
 <div class="container">
-    <div class="row mt-5 mb-5">
+    <div class="row mt-5 mb-5" data-aos="fade-right" data-aos-duration="1000">
       <div class="col-md-6">
         <img src="img/dashboard.png"  style="width: 500px;" alt="">
     </div>
@@ -24,7 +24,7 @@
         <p>Bisnis anda dapat dipantau secara real time, seperti data pengunjung harian atau bulanan. Dan juga data disajikan dalam bentuk chart.</p>
       </div>
   </div>
-  <div class="row mt-5 mb-5">
+  <div class="row mt-5 mb-5" data-aos="fade-left" data-aos-duration="1000">
     <div class="col-md-6 mt-5">
       <h1>Management Customer</h1>
       <p>Kasir dapat mengecek pesanan dari tiap pengunjung yang telah memesan, dan memproses pesanan.</p>
@@ -34,7 +34,7 @@
     </div>
   </div>
 
-  <div class="row mt-5 mb-5">
+  <div class="row mt-5 mb-5" data-aos="fade-right" data-aos-duration="1000">
     <div class="col-md-6">
       <img src="img/pengunjung.png"  style="width: 500px;" alt="">
   </div>
@@ -44,7 +44,7 @@
     </div>
 </div>
 
-  <div class="row mt-5 mb-5">
+  <div class="row mt-5 mb-5" data-aos="fade-left" data-aos-duration="1000">
     <div class="col-md-6 mt-5">
       <h1>Management Data User</h1>
       <p>Anda dapat menambahkan kategori dan list menu makanan dan minuman, serta mengupdate harga sesuai dengan kebutuhan anda.</p>
@@ -54,7 +54,7 @@
     </div>
   </div>
 
-  <div class="row mt-5 mb-5">
+  <div class="row mt-5 mb-5" data-aos="fade-right" data-aos-duration="1000">
     <div class="col-md-6">
       <img src="img/user.png"  style="width: 500px;" alt="">
   </div>
@@ -63,7 +63,7 @@
       <p>Anda dapat mengatur autentikasi user pengguna platform anda. Sehingga tidak terjadi penyalahgunaan.</p>
     </div>
 </div>
-<div class="row mt-5 mb-5">
+<div class="row mt-5 mb-5" data-aos="fade-left" data-aos-duration="1000">
     <div class="col-md-6">
       <img src="img/phone.png"  style="width: 500px;" alt="">
   </div>

@@ -16,7 +16,9 @@
     display: block;
     border-bottom: 2px solid rgb(0, 119, 255);
     margin: auto;
+    color: rgb(9, 179, 247);
 }
+
 .dropdown:hover .dropdown-menu{
         display: block;
 }

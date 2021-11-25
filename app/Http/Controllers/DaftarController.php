@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
-use Illuminate\Support\Facades\Hash;
 
 class DaftarController extends Controller
 {
     public function index()
     {
-        return view('Daftar', [
-            'title' => 'Daftar'
+        return view('Sukses', [
+            'title' => 'Sukses',
+            'post'  => User::all()
         ]);
     }
 

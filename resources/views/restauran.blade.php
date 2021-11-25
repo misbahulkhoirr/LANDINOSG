@@ -15,7 +15,7 @@
 </div>
 
 <div class="container">
-    <div class="row mt-5 mb-5">
+    <div class="row mt-5 mb-5" data-aos="fade-right" data-aos-duration="1000">
         <div class="col-md-6 mb-3">
             <h1 class="fw-bold primary">Scan Barcode Pengunjung</h1>
             <p>Pengunjung dapat memindai barcode yang tersedia untuk melihat menu</p>
@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    <div class="row mt-5 mb-5">
+    <div class="row mt-5 mb-5" data-aos="fade-left" data-aos-duration="1000">
         <div class="col-md-6">
             <img src="img/menu.png"  style="width: 500px;" alt="">
         </div>
@@ -35,7 +35,7 @@
         </div>
     </div>
 
-      <div class="row mt-5 mb-5">
+      <div class="row mt-5 mb-5" data-aos="fade-right" data-aos-duration="1000">
         <div class="col-md-6 mt-5">
           <h1 class="fw-bold primary">Form Pengunjung</h1>
           <p>Pengunjung dapat mengisi data nama, no handpone, dan nomor meja untuk melakukan pemesanan</p>
@@ -45,16 +45,16 @@
         </div>
     </div>
 
-    <div class="row mt-5 mb-5">
+    <div class="row mt-5 mb-5" data-aos="fade-left" data-aos-duration="1000">
       <div class="col-md-6">
         <img src="img/dashboard.png"  style="width: 500px;" alt="">
     </div>
-      <div class="col-md-6 mt-5">
+      <div class="col-md-6 mt-5" data-aos="fade-left" data-aos-duration="1000">
         <h1 class="fw-bold primary">Dashboard Statistik Pengunjung</h1>
         <p>Bisnis anda dapat dipantau secara real time, seperti data pengunjung harian atau bulanan. Dan juga data disajikan dalam bentuk chart.</p>
       </div>
   </div>
-  <div class="row mt-5 mb-5">
+  <div class="row mt-5 mb-5" data-aos="fade-right" data-aos-duration="1000">
     <div class="col-md-6 mt-5">
       <h1 class="fw-bold primary">Management Pesanan</h1>
       <p>Kasir dapat mengecek pesanan dari tiap pengunjung yang telah memesan, dan memproses pesanan.</p>
@@ -64,7 +64,7 @@
     </div>
   </div>
 
-  <div class="row mt-5 mb-5">
+  <div class="row mt-5 mb-5" data-aos="fade-left" data-aos-duration="1000">
     <div class="col-md-6">
       <img src="img/pengunjung.png"  style="width: 500px;" alt="">
   </div>
@@ -74,7 +74,7 @@
     </div>
 </div>
 
-  <div class="row mt-5 mb-5">
+  <div class="row mt-5 mb-5" data-aos="fade-right" data-aos-duration="1000">
     <div class="col-md-6 mt-5">
       <h1 class="fw-bold primary">Management Menu</h1>
       <p>Anda dapat menambahkan kategori dan list menu makanan dan minuman, serta mengupdate harga sesuai dengan kebutuhan anda.</p>
@@ -84,7 +84,7 @@
     </div>
   </div>
 
-  <div class="row mt-5 mb-5">
+  <div class="row mt-5 mb-5" data-aos="fade-left" data-aos-duration="1000">
     <div class="col-md-6">
       <img src="img/user.png"  style="width: 500px;" alt="">
   </div>
