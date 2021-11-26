@@ -3,7 +3,7 @@
 
 </div>
 <div class="container mt-5">
-    <div class="row mb-5">
+    <div class="row mb-5" data-aos="fade-right" data-aos-duration="2000">
         <div class="card card3" style="width: 100rem;">
             <div class="row">
                 <div class="col-md-6">
@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="row mb-5">
+        <div class="row mb-5" data-aos="fade-left" data-aos-duration="1000">
             <div class="card card3" style="width: 100rem;">
                 <div class="row">
                     <div class="col-md-6">
@@ -35,7 +35,7 @@
               </div>
             </div>
 
-            <div class="row mb-5">
+            <div class="row mb-5" data-aos="fade-right" data-aos-duration="1000">
                 <div class="card card3" style="width: 100rem;">
                     <div class="row">
                         <div class="col-md-6">

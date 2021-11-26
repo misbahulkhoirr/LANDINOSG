@@ -46,3 +46,4 @@ Route::get('/daftar', function () {
 
 Route::post('/daftar', [DaftarController::class, 'store']);
 Route::get('/sukses', [DaftarController::class, 'index']);
+Route::delete('/sukses/{user}', [DaftarController::class, 'destroy']);

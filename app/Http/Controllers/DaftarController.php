@@ -29,4 +29,10 @@ class DaftarController extends Controller
 
         return redirect('/sukses')->with('success', 'Daftar berhasil !');
     }
+
+    public function destroy(User $user)
+    {
+        $data = User::destroy($user->id);
+        return redirect('/sukses')->with('success', 'Data berhasil di hapus');
+    }
 }

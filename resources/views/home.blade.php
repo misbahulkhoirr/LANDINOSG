@@ -11,7 +11,7 @@
     <div class="col-md-5 mt-5">
         <h2>Solusi Terbaik Untuk Manajemen Bisnis Usaha Anda</h2>
         <p>Nikmati Mudahnya Mengelola Bisnis Usaha Anda Secara Realtime Dalam Satu Dashboard Kapanpun Dan Dimanapun…</p>
-        <a class=" btn btn-dark" href="#">DAFTAR SEKARANG</a>
+        <a class="fw-bold fs-6 p-3 btn btn-dark" href="/daftar">DAFTAR SEKARANG</a>
     </div>
 </div>
 </div>
@@ -73,7 +73,7 @@
 </div>
 
 <div class="container" data-aos="fade-up" data-aos-duration="1000">
-<div class="row">
+<div class="row mb-5">
     <h2 class="text-center mt-5">SERVICES</h2>
     <p class="text-center">Layanan kami untuk sementara ini hanya berfokus pada sektor berikut</p>
     <div class="col-md-6 mt-5">
@@ -94,33 +94,30 @@
             </div>
           </div>
     </div>
-</div>
+  </div>
+  <div class="row">
+      <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1000">
+        <img src="img/phone.png" alt="">
+      </div>
+      <div class="col-sm-6" data-aos="fade-left" data-aos-duration="1000">
+        <h3 class="fw-bold">Fitur Spesial yang Bisa Anda Temukan di</h3>
+        <img src="img/logo.png" alt="">
+        <hr class="mt-5 mb-5">
+          <h3 class="fw-bold">QR Code</h3>
+          <p>Menggunakan QR Code untuk memudahkan customer mengakses.</p>
+          <h3 class="fw-bold">Transaction management</h3>
+          <p>Menggunakan QR Code untuk memudahkan customer mengakses.</p>
+          <h3 class="fw-bold">Histori Monitoring</h3>
+          <p>Menggunakan QR Code untuk memudahkan customer mengakses.</p>
+      </div>
+  </div>
 </div>
 
-<section id="service">
-<div class="container mt-5">'
-<div class="row">
-  <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1000">
-    <img src="img/phone.png" alt="">
-  </div>
-  <div class="col-sm-6" data-aos="fade-left" data-aos-duration="1000">
-    <h3 class="fw-bold">Fitur Spesial yang Bisa Anda Temukan di</h3>
-    <img src="img/logo.png" alt="">
-    <hr class="mt-5 mb-5">
-      <h3 class="fw-bold">QR Code</h3>
-      <p>Menggunakan QR Code untuk memudahkan customer mengakses.</p>
-      <h3 class="fw-bold">Transaction management</h3>
-      <p>Menggunakan QR Code untuk memudahkan customer mengakses.</p>
-      <h3 class="fw-bold">Histori Monitoring</h3>
-      <p>Menggunakan QR Code untuk memudahkan customer mengakses.</p>
-  </div>
-</div>
-</div>
-</section>
 
 <div class="parallax">
-  <div class="container" data-aos="fade-up" data-aos-duration="1000">
-    <h1 class="fw-bold text-center mt-5 d-flex justify-content-center text-light">Daftar Sekarang</h1>
+  <div class="container text-center" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="fw-bold text-center d-flex justify-content-center text-light mt-5 mb-5">Daftar Sekarang</h1>
+        <a href="/daftar" class="btn btn-transparance border text-light fw-bold rounded-0 fs-4">Daftar Sekarang</a>
   </div>
 </div>
 

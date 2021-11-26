@@ -19,8 +19,8 @@
 
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/logo.png" style="width: 100px;" alt=""></a>
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="img/logo.png" style="width: 100px;" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,7 +41,7 @@
             <a class="nav-link {{ Request::is('carakerja') ? 'active' : '' }}" href="/carakerja">CARA KERJA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-primary" href="/daftar">DAFTAR</a>
+            <a class="nav-link btn btn-primary fw-bold text-light" href="/daftar">DAFTAR</a>
           </li>
         </ul>
       </div>
