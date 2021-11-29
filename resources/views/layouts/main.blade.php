@@ -31,6 +31,20 @@
       VanillaTilt.init(document.querySelectorAll(".card"));
     </script>
 
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.querySelector(".navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("fixed-top")
+        } else {
+          navbar.classList.remove("fixed-top");
+        }
+      }
+      </script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
